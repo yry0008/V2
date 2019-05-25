@@ -9,13 +9,13 @@
   "stats": {
   },
   "inbound": {
-    "port": 1080,
+    "port": @PORT@,
     "protocol": "vmess",
     "settings": {
       "clients": []
     },
     "streamSettings": {
-      "network": "ws"
+      "network": "@NETWORK@"
     },
     "tag": "proxy"
   },
