@@ -1,16 +1,16 @@
 {
-    "Mysql_Host": "",
-    "Mysql_Port": 3306,
-    "Mysql_User": "",
-    "Mysql_Password": "",
-    "Mysql_Db": "",
-    "Mysql_TLS": "false",
+    "Mysql_Host": "@DB_HOST@",
+    "Mysql_Port": @DB_PORT@,
+    "Mysql_User": "@DB_USER@",
+    "Mysql_Password": "@DB_PASSWD@",
+    "Mysql_Db": "@DB_DATABASE@",
+    "Mysql_TLS": "@DB_TLS@",
     "Mysql_MaxOpenConns": 100,
     "Mysql_MaxIdleConns": 10,
     "V2rayClientAddr": "127.0.0.1:8301",
     "V2rayTag": "proxy",
     "Email": "@test.com",
-    "AlterID": 64,
-    "Level": 1,
-    "CheckRate": 64
+    "AlterID": @ALTERID@,
+    "Level": @LEVEL@,
+    "CheckRate": @CHECKRATE@
 }
